@@ -2,7 +2,7 @@
 
 **Ask what a dsh plugin can actually do — without leaving your agent.**
 
-在 dsh 里直接查一个插件到底能做什么。
+English · [简体中文](README.zh.md)
 
 Companion plugin for [dsh-xray](https://github.com/unStone/dsh-xray), which statically scans every repository under the `dsh-plugin` topic and publishes a capability card for each.
 
