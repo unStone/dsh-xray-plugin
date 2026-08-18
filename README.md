@@ -36,8 +36,12 @@ This is not malware detection. Static analysis cannot establish intent, and a de
 ## Install
 
 ```sh
-dsh plugin add unStone/dsh-xray-plugin
+dsh plugin add https://github.com/unStone/dsh-xray-plugin/releases/download/v0.1.0/dsh-xray-plugin-0.1.0.tgz
 ```
+
+The release carries a prebuilt bundle, so the install skips pnpm's build-script
+approval step. Installing from source (`dsh plugin add unStone/dsh-xray-plugin`)
+also works, but pnpm will ask you to allowlist the build first.
 
 ## Data
 
